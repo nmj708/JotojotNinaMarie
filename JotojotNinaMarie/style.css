@@ -1,0 +1,161 @@
+/* navbar style */
+.navbar {
+  background-color: #2e4744;
+  color: #fff;
+  padding: 1px 0;
+}
+
+.container {
+  max-width: 1200px;
+  min-width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  padding: 0 4px;
+}
+
+/*navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  position: relative;
+  right: 40px;
+}
+
+.nav-links li {
+  margin-right: 80px;
+}
+
+.nav-links li:last-child {
+  margin-right: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(248, 248, 248);
+  font-weight: bold;
+}
+
+/* links on hover */
+.nav-links a:hover {
+  color:yellow;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  text-align: center ;
+  color: black;
+  padding: 134px 0;
+  background-color: #d4b5a9;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.hero h2 {
+  font-size: 200%;
+}
+
+.hero h3 {
+  font-size: 150%;
+}
+
+.hero h5 {
+  font-size: 120%;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* About section */
+.about {
+  background-color:  #d4b5a9;
+  padding: 250px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 30px;
+  position: relative;
+  top: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  bottom: center;
+}
+
+.studio-Ghibli {
+  display: flex;
+  justify-content: center;
+  padding: relative;
+  position: relative
+}
+
+/* Movie section styles */
+.movie {
+  background-color:  #d4b5a9;
+  padding: 80px 0;
+  text-align: center 0;
+}
+
+.movie h1 {
+  font-size: 40px;
+  margin-right: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.movie-item {
+  max-width: 180px;
+  margin: 0 auto 40px;
+}
+
+.movie-item img {
+  max-width: 100%;
+  image-orientation: initial;
+}
+
+.movie-item h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+
+/* Footer styles */
+.footer {
+  background-color: #2e4744;
+  color: rgb(248, 248, 248);
+  text-align: center;
+  padding: 2px 0;
+}
